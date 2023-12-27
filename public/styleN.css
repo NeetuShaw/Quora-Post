@@ -1,0 +1,78 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: "Poppins", sans-serif;
+}
+
+body {
+    display: flex;
+    justify-content: center;
+    background: linear-gradient(#4f2ac9, #9931da);
+    min-height: 100vh;
+    align-items: center;
+}
+
+
+
+.card {
+    width:300px;
+    height: 300px;
+    background:turquoise;
+    color: white;
+    border: 2px solidrgba(255, 255, 255, .2);
+    backdrop-filter: blur(20px);
+    box-shadow: 0 0 10px rgba(0, 0, 0, .2);
+    color: #fff;
+    border-radius: 10px;
+    padding: 30px 40px;
+    
+}
+
+ .input-box {
+    width: 50px;
+    height: 50px;
+    margin: 25px 25px 25px 25px;
+    position: relative;
+}
+
+.input-box input {
+  
+     width: 170px;
+    height: 40px;
+  background: white; 
+  padding: 20px 20px 20px 20px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, .1);
+    cursor: pointer;
+    font-size: 15px;
+    color:black;
+    font-weight: 60;
+}
+.input-pass {
+    width: 50px;
+    height: 50px;
+    margin: 25px 25px 25px 25px;
+    position: relative;
+}
+.input-pass input {
+    width: 170px;
+    height: 40px;
+     /* background: transparent;  */
+     /* border: 2px solid rgba(19, 17, 17, 0.2); */
+    font-size: 16px;
+     background-color: white; 
+    color: black;
+    padding: 20px 20px 20px 20px;
+}
+
+.btn {
+    width: 100px;
+    height: 35px;
+  background: blue;
+    box-shadow: 0 0 10px rgba(0, 0, 0, .1);
+    cursor: pointer;
+    font-size: 16px;
+    color:white;
+    font-weight: 60;
+    margin: 0px 15px 15px 60px;
+}
